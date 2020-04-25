@@ -1,6 +1,6 @@
 # Deepfake Detection Challenge
 
-**Team rähmä.ai solution to [Deepfake detection challenge](https://www.kaggle.com/c/deepfake-detection-challenge)**
+**Team rähmä.ai solution to [Deepfake detection challenge](https://www.kaggle.com/c/deepfake-detection-challenge)** that ranked to top 7% in the challenge.
 
 [Kaggle's dataset](https://www.kaggle.com/c/deepfake-detection-challenge/data)
 
@@ -74,7 +74,7 @@ The main arguments (see DeepFakeDetector.py for all arguments):
 - `verbose` (int): 0 = silent, 1 = print errors and warnings, 2 = print processing times of components and all errors and warnings. default=0. 
 
 ```python
-deepFakeDetector = DeepFakeDetector(deepfake_models_directory="./kaggle_datasets/deepfake_2020_03_30/",
+deepFakeDetector = DeepFakeDetector(deepfake_models_directory="./kaggle_datasets/deepfake_2020_03_09/",
                                     third_party_models_directory="./pretrained_models/")
 ```
 
