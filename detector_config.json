@@ -1,0 +1,6 @@
+{
+    "n_first_frames" : 10,
+    "n_spaced_frames" : 10,
+    "pretrained_paths" : "./pretrained_models/",
+    "models_root_dir" : "./model_packages/deepfake_2020_03_09/"
+}
