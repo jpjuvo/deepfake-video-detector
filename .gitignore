@@ -11,9 +11,6 @@ torch_env/
 tmp/
 dev/
 
-# materials
-materials/
-
 # VS Code
 .vscode/
 
