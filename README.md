@@ -1,12 +1,12 @@
 # Deepfake Detection Challenge
 
-**Team rähmä.ai solution to [Deepfake detection challenge](https://www.kaggle.com/c/deepfake-detection-challenge)** that ranked to top 7% in the challenge.
+**Team rähmä.ai solution to [Deepfake detection challenge](https://www.kaggle.com/c/deepfake-detection-challenge)** that ranked to top 7% in the competition.
 
 [Kaggle's dataset](https://www.kaggle.com/c/deepfake-detection-challenge/data)
 
 ## Overview
 
-Our method samples frames from a given video and extracts faces of each person. First-level models predict fakeness of the extracted faces and the statistical features of all predictions are fed to second-level classifiers. Each person is given a fake probability and the deepfake classification is the maximum of all person predictions.
+Our method samples frames from a given video and extracts the faces of each person. First-level models predict fakeness of the extracted faces, and the statistical features of all predictions are fed to second-level classifiers. Each person is given a fake probability, and the deepfake classification is the maximum of all person predictions.
 
 ![Overview](./materials/overview.png)
 
